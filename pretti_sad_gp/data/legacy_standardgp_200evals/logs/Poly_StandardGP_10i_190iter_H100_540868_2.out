@@ -1,0 +1,10 @@
+Starting Polymerization | StandardGP | Seed 9
+Using GPU: NVIDIA H100 NVL
+Success. Saved to data/results/Result_Polymerization_StandardGP_Seed9.pt
+Starting Polymerization | StandardGP | Seed 4
+Using GPU: NVIDIA H100 NVL
+Success. Saved to data/results/Result_Polymerization_StandardGP_Seed4.pt
+Worker started. Polling data/queue_state/pending...
+Processing Job 9...
+Processing Job 4...
+No pending jobs found. Exiting.

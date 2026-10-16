@@ -1,0 +1,86 @@
+[
+  {
+    "benchmark": "Polymerization",
+    "method": "CustomDeepGP",
+    "seed": 0,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "Polymerization",
+    "method": "CustomDeepGP",
+    "seed": 1,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "Polymerization",
+    "method": "CustomDeepGP",
+    "seed": 2,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "Polymerization",
+    "method": "CustomDeepGP",
+    "seed": 3,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "Polymerization",
+    "method": "CustomDeepGP",
+    "seed": 4,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "PharmaV1",
+    "method": "CustomDeepGP",
+    "seed": 0,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "PharmaV1",
+    "method": "CustomDeepGP",
+    "seed": 3,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "PharmaV1",
+    "method": "CustomDeepGP",
+    "seed": 4,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "PharmaV2",
+    "method": "CustomDeepGP",
+    "seed": 0,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "PharmaV2",
+    "method": "CustomDeepGP",
+    "seed": 1,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "PharmaV2",
+    "method": "CustomDeepGP",
+    "seed": 3,
+    "n_init": 10,
+    "n_iter": 20
+  },
+  {
+    "benchmark": "PharmaV2",
+    "method": "CustomDeepGP",
+    "seed": 4,
+    "n_init": 10,
+    "n_iter": 20
+  }
+]

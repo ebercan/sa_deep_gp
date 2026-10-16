@@ -1,0 +1,2 @@
+/mechthild/home/griehl/flowsheet-dfo/pretti_sad_gp/venv/lib/python3.12/site-packages/botorch/fit.py:214: OptimizationWarning: `scipy_minimize` terminated with status OptimizationStatus.FAILURE, displaying original message from `scipy.optimize.minimize`: ABNORMAL: 
+  result = optimizer(mll, closure=closure, **optimizer_kwargs)

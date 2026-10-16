@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sa-deep-gp"
+version = "0.1.0"
+description = "Sample-efficient Bayesian process optimisation with structure-aligned, prior-informed deep Gaussian processes (ESCAPE-36)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "C. Griehl" },
+    { name = "E. Baris Ercan" },
+    { name = "C. Ganzer" },
+    { name = "K. Sundmacher" },
+]
+keywords = ["bayesian optimisation", "deep gaussian process", "process systems engineering", "multi-fidelity"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3 :: Only",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "torch",
+    "gpytorch",
+    "botorch",
+    "jax",
+    "numpyro",
+    "pandas",
+    "plotly",
+]
+
+[project.optional-dependencies]
+# NUTS on a GPU needs a CUDA build of JAX; with plain "jax" it falls back to the CPU.
+cuda = ["jax[cuda12]"]
+# Flowsheet benchmarks, not used for the poster. Run "idaes get-extensions" after installing.
+flowsheets = ["pyomo", "idaes-pse", "biosteam", "biorefineries"]
+test = ["pytest"]
+
+# The code is a set of scripts run from pretti_sad_gp/ (see README), not an importable
+# package, so installing the project only installs its dependencies.
+[tool.setuptools]
+packages = []
